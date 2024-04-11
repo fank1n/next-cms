@@ -1,11 +1,11 @@
 interface BlogListElement {
   id: string;
-  name: string;
+  title: string;
   description: string;
 }
 
 interface CreateListElementCommand {
-  name: string;
+  title: string;
   description: string;
 }
 

@@ -15,6 +15,6 @@ datasource db {
 
 model Blog {
   id String @id @default(cuid())
-  name String
+  title String
   description String
 }
