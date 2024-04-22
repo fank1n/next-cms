@@ -9,7 +9,7 @@ import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { createBlogAction } from '../actions';
 import { Button } from '@/shared/ui/button';
-import { cn } from '@/lib/utils';
+import { cn } from '@/shared/lib/clsx';
 
 const createBlogFormSchema = z.object({
   title: z.string(),
